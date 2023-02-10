@@ -1,6 +1,6 @@
 public class Book {
    private String name;
-    Author author;
+   private Author author;
    private int publishingYear;
 
     public Book(String name, Author author, int publishingYear) {
@@ -12,7 +12,9 @@ public class Book {
         return name;
     }
 
-
+    public Author getAuthor() {
+        return author;
+    }
     public int getPublishingYear() {
         return publishingYear;
     }

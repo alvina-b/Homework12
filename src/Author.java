@@ -6,10 +6,10 @@ public class Author {
         this.authorSurname = authorSurname;
 
     }
-    public String getAuthorName(String authorName) {
+    public String getAuthorName() {
         return authorName;
     }
-    public String getAuthorSurname(String authorSurname) {
+    public String getAuthorSurname() {
         return authorSurname;
     }
 }
